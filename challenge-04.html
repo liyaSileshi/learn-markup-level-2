@@ -73,42 +73,42 @@
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id, placeholder, autocomplete, required -->
-    <label>Name</label>
-    <input>
+    <label for='name'>Name</label>
+    <input id='name' name="name" type='text' placeholder='Enter your name'>
   </p>
   
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id, placeholder, autocomplete, required -->
-    <label>Email</label>
-    <input>
+    <label for='email'>Email</label>
+    <input id='email' name='email' type='email' placeholder="Enter your email" >
   </p>
   
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id, placeholder -->
-    <label>Pet Count</label>
-    <input>
+    <label for="count">Pet Count</label>
+    <input id="count" type='number' name='count' placeholder="Enter number of pets">
   </p>
   
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id, placeholder -->
-    <label>Birthday</label>
-    <input>
+    <label for="birthday">Birthday</label>
+    <input id='birthday' type='date' name='birthday'>
   </p>
   
   <p>
     <!-- Set the name for the select make none the current selection -->
     <label>Prefix</label>
-    <select>
+    <select name='prefix'>
+      <option>None</option>
       <option>Mr</option>
       <option>Mrs</option>
       <option>Ms</option>
       <option>Sir</option>
       <option>Madam</option>
       <option>Dr</option>
-      <option>None</option>
     </select>
   </p>
   
@@ -118,21 +118,21 @@
       <!-- Associate the label and input -->
       <!-- set: type, name, id, value -->
       <label>
-        <input>
+        <input type='radio' name='role' id='admin' value='Admin'>
         Admin</label>
     </li>
     <li>
       <!-- Associate the label and input -->
       <!-- set: type, name, id, value -->
       <label>
-        <input>
+        <input type='radio' name='role' id='editor' value='Editor'>
         Editor</label>
     </li>
     <li>
       <!-- Associate the label and input -->
       <!-- set: type, name, id, value -->
       <label>
-        <input>
+        <input type='radio' name='role' id='contributor' value='Contributor'>
         Contributor</label>
     </li>
   </ul>
@@ -141,7 +141,7 @@
     <!-- Associate the label and input -->
     <!-- set: type, name, id, value -->
     <label>
-      <input>
+      <input type='checkbox' name='public' id='public' checked>
       Public Bio</label>
   </p>
   
@@ -149,28 +149,28 @@
     <!-- Associate the label and input -->
     <!-- set: type, name, id, value -->
     <label>
-      <input>
+      <input type='color' name='color' id='color'>
       Color</label>
   </p>
   
   <p>
     <!-- Set the name for the textarea -->
-    <label>Message</label>
-    <textarea></textarea>
+    <label for='message'>Message</label>
+    <textarea name='message' id='message'></textarea>
   </p>
   
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id -->
     <label>Upload Image</label>
-    <input>
+    <input type='file' name='images'>
   </p>
   
   <p>
     <!-- Associate the label and input -->
     <!-- set: type, name, id, value, disabled -->
     <label>
-      <input>
+      <input type='checkbox' name='self_destruct' id='self_destruct'>
       Self Destruct</label>
   </p>
   
